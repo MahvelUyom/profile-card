@@ -1,0 +1,69 @@
+<html>
+    <head>
+<style>
+    body{
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background: linear-gradient(
+            145deg, #f0f0f0, #cacaca
+        );
+    }
+    .main{
+        height: 500px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 20px 20px 60px 
+        #bebebe, -20px -20px 60px #ffffff;
+        background: #fff;
+    }
+ .main .back{
+    top: 0;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    position: absolute;
+    height: 360px;
+    width: 100%;
+    background: url("InShot_20230225_224255604.png")
+    center no-repeat;
+    background-size: 94%;
+ } 
+ .main .info{
+    position: relative;
+    top: 145px;
+ }  
+ .main .info h2{
+    font-size: 36px;
+    position: relative;
+    font-weight: 200;
+ }
+ .main .info h4{
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 200;
+ }
+ .main .info hr{
+    width: 35%;
+    position: relative;
+    top: 24px;
+ }
+</style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="back"></div>
+            <div class="info">
+                <h2>CodeWithMobile</h2>
+                <h4>Frontend Dev</h4>
+                <hr>
+            </div>
+        </div>
+    </body>
+</html>
